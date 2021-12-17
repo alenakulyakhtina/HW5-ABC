@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bxbxg/Documents/ABC5/abc5/Caller.h
+utility
+-
+vector
+-
+mutex
+-
+
+C:/Users/bxbxg/Documents/ABC5/abc5/main.cpp
+iostream
+-
+Caller.h
+C:/Users/bxbxg/Documents/ABC5/abc5/Caller.h
+thread
+-
+ctime
+-
+
